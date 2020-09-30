@@ -11,3 +11,8 @@
 ## Openshift
 * [Overview](openshift/index.md)
 
+
+## Deploca Server
+* [Setting up the server](deploca/setup.md)
+* [Deploy a sample app](deploca/deploy.md)
+
