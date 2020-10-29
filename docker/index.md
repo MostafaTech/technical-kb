@@ -70,3 +70,8 @@ $ docker rm $(docker ps -a -q)
 * open the `/lib/systemd/system/docker.service` file as root user
 * change the line `ExecStart=/usr/bin/dockerd -H=fd:// -H=tcp://0.0.0.0:4243` as you wish
 
+## Log files
+Each container has it's own logfile, you can know where it is by using:
+```
+$ docker inspect --format='{{.LogPath}}' <nginx-containter-id>
+```
